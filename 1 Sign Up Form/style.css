@@ -50,7 +50,7 @@ h2 {
 .form-control input {
     border: 2px solid #ecf0f1;
     display: block;
-    max-width: 100%;
+    min-width: 100%;
     padding:10px;
     font-size: 14px;
 }
