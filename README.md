@@ -1,1 +1,1 @@
-# HTMl_CSS_Js_Projects
+# Vanilla JavaScript Projects
