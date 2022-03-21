@@ -7,9 +7,100 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+        integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
+
+    <!-- Left Navigation -->
+    <nav>
+        <div class="logo">
+            <img src="https://randomuser.me/api/portraits/thumb/men/44.jpg" alt="">
+        </div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+
+    <!-- Header Section -->
+    <header>
+        <button class="toggle" id="toggle">
+            <i class="fa fa-bars fa-2x"></i>
+        </button>
+        <h1>My Landing Page</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, voluptas.</p>
+        <button class="cta-btn" id="open">
+            Sign Up
+        </button>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <h2>What is Axiom</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, tempore.</p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam inventore perferendis dolores fugiat. Fuga
+            eaque sed neque iusto minima dolorum.
+        </p>
+        <h2>Learn More</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, ex.</p>
+
+        <h2>Projects</h2>
+        <ul>
+
+            <li>Projet1</li>
+            <li>Projet2</li>
+            <li>Projet3</li>
+            <li>Projet4</li>
+            <li>Projet5</li>
+
+        </ul>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, ducimus?</p>
+
+        <!-- Model  -->
+        <div class="modal-container" id="modal">
+            <div class="modal">
+
+                <button class="close-btn" id="close">
+                    <i class="fa fa-times"></i>
+
+                </button>
+                <div class="modal-header">
+                    <h3>Sign Up</h3>
+                </div>
+                <div class="modal-content">
+                    <p>Register for Classes</p>
+                    <form class="modal-form">
+                        <div>
+                            <label for="name">Name</label>
+                            <input type="text" id="name" placeholder="Enter Name">
+                        </div>
+                        <div>
+                            <label for="email">Name</label>
+                            <input type="email" id="email" placeholder="Enter Email">
+                        </div>
+                        <div>
+                            <label for="password">Password</label>
+                            <input type="password" id="password" placeholder="Enter Password">
+                        </div>
+                        <div>
+                            <label for="password2">Confirm Password</label>
+                            <input type="password" id="password2" placeholder="Confirm Password">
+                        </div>
+                        <input type="submit" value="Submit" class="submit-btn">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 
 
 
