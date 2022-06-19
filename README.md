@@ -2,3 +2,4 @@
 
 - [Quote Generator](https://quote-generator-awais.netlify.app/)
 - [Infinite Scroll App](https://infinite-scroll-app-js-awais.netlify.app/)
+- [Mobile Landing Page in Vanilla CSS, Javascript](https://mobile-landing-page-by-awais.netlify.app/) - [Code](https://github.com/Avicii786/mobile-landing-page)
